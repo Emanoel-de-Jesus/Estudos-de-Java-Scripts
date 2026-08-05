@@ -3,7 +3,7 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Progama</title>
+    <title>Emanoel</title>
   <style>          
     body {
         background-color: lch(49.41% 97.72 39.62);
@@ -19,9 +19,17 @@
     <h1>Olá,Mundo!</h1>
     <p>Este é o meu primeiro programa em HTML.</p>
     <script>
-        window.confirm("Deseja continuar?"); // ok
-        window.prompt("qual é o seu nome?"); //Pergunta nome
-        window.alert("Olá,mundo!");   //mensagem
+        var numero = window.prompt("Digite um número: ");
+        window.alert(`Voce digitou o numero ${numero}`);
+        var aleatorio = Math.floor(Math.random() *1) + 1;
+        window.alert(`${aleatorio}`);
+        if (numero == aleatorio) {
+            window.alert(`Parabéns, você acertou o número ${aleatorio}`);
+        }
+
     </script>
+
+       
+       
 </body>
 </html>
