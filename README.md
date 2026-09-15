@@ -69,7 +69,7 @@ O exercício apresenta uma página com parágrafos e uma `div`. O JavaScript ace
 - `querySelector('div#msg')` seleciona a mesma `div` usando um seletor CSS.
 
 Depois, altera as cores da `div` com `style.backgroundColor` e `style.color`.
-
+  
 **O que estou aprendendo:** DOM, seleção de elementos, índices de coleções, seletores CSS e alteração de estilos com JavaScript.
 
 ### `ex006.html` - Rascunho de uma soma com evento
@@ -117,11 +117,3 @@ O usuário digita dois números em campos `input` e clica no botão **Somar**. O
 | `ex010` | Eventos do mouse e funções |
 | `ex010p2` | Inputs, funções e cálculo na página |
 
-## Como executar
-
-1. Abra a pasta `Estudos` no Visual Studio Code.
-2. Abra qualquer arquivo `.html` no navegador.
-3. Interaja com os prompts, botões e áreas da página.
-4. Use o console do navegador para observar erros e testar comandos JavaScript.
-
-Os exercícios são estudos progressivos. Erros de sintaxe e tentativas incompletas também fazem parte do processo: identificar por que um código não executa é uma etapa importante do aprendizado.
