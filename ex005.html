@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 005</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        Body {
+            background-color: #e91152;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudos com Dom </h1> <!--- Tamanho do texto --->
+    <p> Aqui vai o resultado</p>  <!--- pagina --->
+    <p>Aprendendo a usar o <stong> DOM </stong>em javaScript</p>  <!--- pagina --->
+    <div id="msg">Clique em mim</div> <!--- Div --->
+    <script>
+        var corpo = window.document.body //pega o corpo do documento
+        var p1 = window.document.getElementsByTagName('p')[1] //pega o segundo paragrafo
+        var d = window.document.getElementById('msg') //pega a div
+        d.style.backgroundColor = 'green'
+        /*d.innerText = 'estou aguardando'
+          d.style.backgroud = 'green'
+          d.innerText = 'Estou aguardando'
+        */
+        var d = window.document.querySelector('div#msg') //pega a div
+        d.style.color = 'blue'
+
+        
+   </script>
+</body>
+</html>
